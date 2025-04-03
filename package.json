@@ -1,6 +1,6 @@
 {
-  "name": "aryan-videos-downloader",
-  "version": "0.1.2",
+  "name": "aryan-video-downloader",
+  "version": "0.0.2",
   "description": "Fetch Url Downloads From Instagram & Facebook & TikTok & YouTube & Twitter & Google Drive & Pintarest & likee & threads",
   "main": "src/index.js",
   "scripts": {
