@@ -1,6 +1,6 @@
 ## Instalation :
 ```bash
-> npm i aryan-videos-downloader
+> npm i aryan-video-downloader
 ```
 ## 🚀 Project Update Log  
 
@@ -20,7 +20,7 @@
 
 ## Example (fb & insta)
 ```js
-const { ndown } = require("aryan-videos-downloader")
+const { ndown } = require("aryan-video-downloader")
 let URL = await ndown("https://www.facebook.com/100000959749712/posts/pfbid0288xi44nvodK9d7r3wf4LHeM3dtEsVghQXmz5t59axwz7KdLStYyg4qfvTVrAL27Ll/?app=fbl")
 console.log(URL)
 ```
@@ -61,7 +61,7 @@ console.log(URL)
 ```
 ## Instagram Usage 
 ```js
-const {instagram} = require("aryan-videos-downloader");
+const {instagram} = require("aryan-video-downloader");
 
 const link = "https://www.instagram.com/p/DAxzjkAyWOm/?igsh=MTZ5eThrMXpteTFpOA==" //past video link
 
@@ -73,7 +73,7 @@ const link = "https://www.instagram.com/p/DAxzjkAyWOm/?igsh=MTZ5eThrMXpteTFpOA==
 ```
 ## Example (TikTok)
 ```js
-const { tikdown } = require("aryan-videos-downloader")
+const { tikdown } = require("aryan-video-downloader")
 let URL = await tikdown("https://vt.tiktok.com/ZSNvs6h6o/")
 console.log(URL)
 ```
@@ -105,13 +105,13 @@ console.log(URL)
 ```
 ## Example (YouTube)
 ```js
-const { ytdown } = require("aryan-videos-downloader")
+const { ytdown } = require("aryan-video-downloader")
 let URL = await ytdown("https://youtu.be/aRSuyrZFu_Q?si=bsfzgeeGmRpsHqnF")
 console.log(URL)
 ```
 ## Example (Twitter)
 ```js
-const { twitterdown } = require("aryan-videos-downloader")
+const { twitterdown } = require("aryan-video-downloader")
 let URL = await twitterdown("https://twitter.com/TeamAbhiSha/status/1743351410761019794?t=vms8wxcU0mQuhVxwGCHjFw&s=19")
 console.log(URL)
 ```
@@ -131,7 +131,7 @@ console.log(URL)
 
 ## Example Fbdown2
 ```js
-const { fbdown2 } = require("aryan-videos-downloader");
+const { fbdown2 } = require("aryan-video-downloader");
 
 const key = "Aryan" //dont change key
 
@@ -158,7 +158,7 @@ fbdown2(link, key).then(data => {
 
 ## Usage GDLink 
 ```js
-const {GDLink} = require("aryan-videos-downloader");
+const {GDLink} = require("aryan-video-downloader");
 
 const url = 'url' // Public Google Drive Url
 
@@ -169,7 +169,7 @@ GDLink(url).then(data => {
 ```
 ## Usage Pintarest 
 ```js
-const {pintarest} = require("aryan-videos-downloader");
+const {pintarest} = require("aryan-video-downloader");
 
 const url = 'url' // pintarest post url
 
@@ -179,7 +179,7 @@ const url = 'url' // pintarest post url
 ```
 ## Usage CapCut 
 ```js
-const { capcut } = require("aryan-videos-downloader");
+const { capcut } = require("aryan-video-downloader");
 
 const url = "link" // capcut link
 
@@ -189,7 +189,7 @@ capcut(url).then(data => {
 ```
 ## Usage Likee 
 ```js
-const { likee} = require("aryan-videos-downloader");
+const { likee} = require("aryan-video-downloader");
 
  const url = "link" // past url
 likee(url).then(data => { 
@@ -198,7 +198,7 @@ likee(url).then(data => {
 ```
 ## Usage Threads
 ```js
-const { threads } = require("aryan-videos-downloader");
+const { threads } = require("aryan-video-downloader");
 
  const url = "link" // past url
 threads(url).then(data => { 
@@ -209,7 +209,7 @@ threads(url).then(data => {
 ### Usage Spotify Search (alldown function doesn't have it)
 ```js
 (async () => {
-  const { spotifySearch } = require("aryan-videos-downloader");
+  const { spotifySearch } = require("aryan-video-downloader");
 
   try {
     let URL = await spotifySearch("ghum odd", 5);
@@ -222,7 +222,7 @@ threads(url).then(data => {
 ### Usage Spotify Download (alldown function doesn't have it)
 ```js
 (async () => {
-  const { spotifyDl } = require("aryan-videos-downloader");
+  const { spotifyDl } = require("aryan-video-downloader");
 
   try {
     const url = "https://open.spotify.com/track/18xxOCfmxqBD5YgTFpzp5d"
@@ -236,7 +236,7 @@ threads(url).then(data => {
 ### Usage Soundcloud Search (alldown function doesn't have it)
 ```js
 (async () => {
-  const { soundcloudSearch } = require("aryan-videos-downloader");
+  const { soundcloudSearch } = require("aryan-video-downloader");
 
   try {
     let data = await soundcloudSearch("ghum odd", 5);
@@ -249,7 +249,7 @@ threads(url).then(data => {
 ### Usage soundcloud downloader (alldown function doesn't have it)
 ```js
 (async () => {
-  const { soundcloud } = require("aryan-videos-downloader");
+  const { soundcloud } = require("aryan-video-downloader");
 
   try {
     const url = "https://soundcloud.com/shezan-mahfuz/villain-highway"
@@ -263,7 +263,7 @@ threads(url).then(data => {
 ### Usage Terabox Downloader (alldown function doesn't have it)
 ```js
 (async () => {
-  const { terabox } = require("aryan-videos-downloader");
+  const { terabox } = require("aryan-video-downloader");
 
   try {
     const url = "https://teraboxlink.com/s/1W8ru115PP8VY6QDNnFXZLQ"
@@ -280,7 +280,7 @@ support url: facebook, tiktok, twitter, instagram, youtube, pinterest, gdrive, c
 note: Let me know if any of the platforms you use are missing
 ```
 ```js
-const {alldown} = require("aryan-videos-downloader");
+const {alldown} = require("aryan-video-downloader");
 const url = 'url' // past url
 
   alldown(url).then(data => {
